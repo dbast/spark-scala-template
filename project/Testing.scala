@@ -17,9 +17,9 @@ import sbt._
 import sbt.Keys._
 
 object Testing {
-  val IntegrationTest = config("it") extend(Test)
-  val EndToEndTest = config("e2e") extend(Runtime)
-  val all = Seq(IntegrationTest, EndToEndTest)
+  val IntegrationTest = config("it") extend (Test)
+  val EndToEndTest    = config("e2e") extend (Runtime)
+  val all             = Seq(IntegrationTest, EndToEndTest)
 
   val testAll = TaskKey[Unit]("test-all")
 

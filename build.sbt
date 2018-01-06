@@ -528,8 +528,9 @@ coverageOutputXML := true
 /*
  * Scalafmt: http://github.com/lucidsoftware/neo-sbt-scalafmt
  */
-scalafmtConfig := baseDirectory.value / "project" / "scalafmt.conf"
+scalafmtConfig in ThisBuild := baseDirectory.value / "project" / "scalafmt.conf"
 scalafmtOnCompile in ThisBuild := true
+scalafmtVersion := "1.4.0"
 inConfig(IntegrationTest)(scalafmtSettings)
 
 /*
