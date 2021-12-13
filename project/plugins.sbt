@@ -68,4 +68,4 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-git" % "1.0.0")
 
 // disables warning: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 // as explained here https://github.com/sbt/sbt-git
-libraryDependencies += "org.slf4j" % "slf4j-nop" % "1.7.30"
+libraryDependencies += "org.slf4j" % "slf4j-nop" % "1.7.32"
