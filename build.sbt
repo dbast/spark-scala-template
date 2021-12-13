@@ -41,7 +41,7 @@ licenses += "Apache-2.0" -> url("http://www.apache.org/licenses/LICENSE-2.0.html
  */
 // Use the same scala version Spark is build with, see scala.version in
 // https://github.com/apache/spark/blob/master/pom.xml
-scalaVersion in ThisBuild := "2.12.11"
+scalaVersion in ThisBuild := "2.12.15"
 
 compileOrder := CompileOrder.JavaThenScala
 
@@ -358,7 +358,7 @@ wartremoverErrors ++= Seq(
 /*
  * Scapegoat: http://github.com/sksamuel/scapegoat
  */
-scapegoatVersion in ThisBuild := "1.3.11"
+scapegoatVersion in ThisBuild := "1.4.11"
 scapegoatDisabledInspections := Seq.empty
 scapegoatIgnoredFiles := Seq.empty
 

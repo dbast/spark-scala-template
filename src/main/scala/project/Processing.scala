@@ -54,6 +54,7 @@ class Processing(spark: SparkSession) extends LazyLogging {
     * @param limit If set, Limits amount of combined steps to given number
     * @param debug If true, prints the physical and logical plan
     */
+  @SuppressWarnings(Array("VariableShadowing"))
   def combineSteps(
       dagSteps: Vector[Dataset[Row] => Dataset[Row]],
       df: Dataset[Row],
