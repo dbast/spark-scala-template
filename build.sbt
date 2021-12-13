@@ -167,7 +167,7 @@ l:classpath         Enable cross-method optimizations across the entire classpat
 /*
  * Managed dependencies
  */
-val sparkVersion           = "3.0.1"
+val sparkVersion           = "3.2.0"
 val clusterDependencyScope = "provided"
 
 libraryDependencies ++= Seq(
@@ -184,7 +184,7 @@ libraryDependencies ++= Seq(
 
 libraryDependencies ++= Seq(
   "org.scalatest"    %% "scalatest"          % "3.2.10",
-  "com.holdenkarau"  %% "spark-testing-base" % "3.0.1_1.0.0",
+  "com.holdenkarau"  %% "spark-testing-base" % "3.2.0_1.1.1",
   "org.apache.spark" %% "spark-hive"         % sparkVersion // required by spark-testing-base
   // "org.scalacheck"    %% "scalacheck"                  % "1.13.5",
   // "org.scalamock"     %% "scalamock-scalatest-support" % "3.6.0",
