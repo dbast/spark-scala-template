@@ -1,4 +1,4 @@
-addSbtPlugin("io.get-coursier" % "sbt-coursier" % "1.0.3")
+addSbtPlugin("io.get-coursier" % "sbt-coursier" % "2.0.11-1")
 
 // This looks redundant, but is required for the `pluginUpdates` task defined
 // in build.sbt, see https://github.com/rtimush/sbt-updates/issues/10
