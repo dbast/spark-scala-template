@@ -20,7 +20,7 @@
 addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "1.0.0")
 
 // http://github.com/puffnfresh/wartremover
-addSbtPlugin("org.wartremover" % "sbt-wartremover" % "3.0.5")
+addSbtPlugin("org.wartremover" % "sbt-wartremover" % "3.0.6")
 
 // http://github.com/wartremover/wartremover-contrib/
 addSbtPlugin("org.wartremover" % "sbt-wartremover-contrib" % "2.0.0")
