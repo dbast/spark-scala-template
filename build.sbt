@@ -55,7 +55,7 @@ lazy val root = Project("root", file("."))
   )
 
 // more memory Spark in local mode, see https://github.com/holdenk/spark-testing-base
-javaOptions ++= Seq("-Xms512M", "-Xmx2048M", "-XX:+CMSClassUnloadingEnabled")
+javaOptions ++= Seq("-Xms512M", "-Xmx2048M")
 
 val commonScalacOptions = Seq(
   "-encoding",
