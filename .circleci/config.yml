@@ -4,7 +4,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: openjdk:17.0.2
+      - image: openjdk:17.0.2-slim-bullseye
     steps:
       - run:
           name: Get shellcheck
