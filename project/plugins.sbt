@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-// http://www.scalastyle.org/
-// http://github.com/scalastyle/scalastyle-sbt-plugin
-addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "1.0.0")
+// https://scalameta.org/scalafmt/
+// https://github.com/scalameta/scalafmt
+addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "2.4.6")
 
 // http://github.com/puffnfresh/wartremover
 addSbtPlugin("org.wartremover" % "sbt-wartremover" % "3.0.6")

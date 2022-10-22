@@ -17,27 +17,27 @@ import sbt._
 import sbt.Keys._
 
 object Testing {
-  val IntegrationTest = config("it") extend (Test)
-  val EndToEndTest    = config("e2e") extend (Runtime)
+  val IntegrationTest = config("it") extend Test
+  val EndToEndTest    = config("e2e") extend Runtime
   val all             = Seq(IntegrationTest, EndToEndTest)
 
   val testAll = TaskKey[Unit]("test-all")
 
   val testSettings = Seq(
-    Test / fork := true,
+    Test / fork              := true,
     Test / parallelExecution := true
   )
 
   val itSettings = inConfig(IntegrationTest)(Defaults.testSettings) ++ Seq(
-    IntegrationTest / fork := true,
+    IntegrationTest / fork              := true,
     IntegrationTest / parallelExecution := false,
-    IntegrationTest / scalaSource := baseDirectory.value / "src/it/scala"
+    IntegrationTest / scalaSource       := baseDirectory.value / "src/it/scala"
   )
 
   val e2eSettings = inConfig(EndToEndTest)(Defaults.testSettings) ++ Seq(
-    EndToEndTest / fork := false,
-    EndToEndTest /parallelExecution := false,
-    EndToEndTest / scalaSource := baseDirectory.value / "src/e2e/scala"
+    EndToEndTest / fork              := false,
+    EndToEndTest / parallelExecution := false,
+    EndToEndTest / scalaSource       := baseDirectory.value / "src/e2e/scala"
   )
 
   val settings = testSettings ++ itSettings ++ e2eSettings ++ Seq(
