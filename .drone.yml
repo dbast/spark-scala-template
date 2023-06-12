@@ -8,6 +8,6 @@ platform:
 
 steps:
 - name: Build and test
-  image: arm64v8/openjdk:8-jdk
+  image: arm64v8/openjdk:22-jdk
   commands:
     - ./ci.sh
