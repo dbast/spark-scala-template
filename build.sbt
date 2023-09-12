@@ -183,7 +183,7 @@ libraryDependencies ++= Seq(
 ).map(_.exclude("ch.qos.logback", "logback-classic"))
 
 libraryDependencies ++= Seq(
-  "org.scalatest"    %% "scalatest"          % "3.2.16",
+  "org.scalatest"    %% "scalatest"          % "3.2.17",
   "com.holdenkarau"  %% "spark-testing-base" % "3.4.0_1.4.3",
   "org.apache.spark" %% "spark-hive"         % sparkVersion // required by spark-testing-base
   // "org.scalacheck"    %% "scalacheck"                  % "1.13.5",
