@@ -184,7 +184,7 @@ libraryDependencies ++= Seq(
 
 libraryDependencies ++= Seq(
   "org.scalatest"    %% "scalatest"          % "3.2.17",
-  "com.holdenkarau"  %% "spark-testing-base" % "3.4.0_1.4.3",
+  "com.holdenkarau"  %% "spark-testing-base" % "3.5.0_1.4.4",
   "org.apache.spark" %% "spark-hive"         % sparkVersion // required by spark-testing-base
   // "org.scalacheck"    %% "scalacheck"                  % "1.13.5",
   // "org.scalamock"     %% "scalamock-scalatest-support" % "3.6.0",
