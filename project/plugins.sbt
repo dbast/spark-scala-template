@@ -33,7 +33,7 @@ addSbtPlugin("org.danielnixon" % "sbt-extrawarts" % "1.0.3")
 addSbtPlugin("com.sksamuel.scapegoat" %% "sbt-scapegoat" % "1.2.2")
 
 // http://github.com/scoverage/sbt-scoverage
-addSbtPlugin("org.scoverage" % "sbt-scoverage" % "2.0.10")
+addSbtPlugin("org.scoverage" % "sbt-scoverage" % "2.0.11")
 
 // Adds a `scalafmt` task for automatic source code formatting
 // https://scalameta.org/scalafmt/docs/installation.html
