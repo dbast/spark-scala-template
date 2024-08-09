@@ -23,7 +23,7 @@ addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "2.5.2")
 addSbtPlugin("org.wartremover" % "sbt-wartremover" % "3.1.8")
 
 // http://github.com/wartremover/wartremover-contrib/
-addSbtPlugin("org.wartremover" % "sbt-wartremover-contrib" % "2.1.0")
+addSbtPlugin("org.wartremover" % "sbt-wartremover-contrib" % "2.1.1")
 
 // http://github.com/danielnixon/extrawarts
 addSbtPlugin("org.danielnixon" % "sbt-extrawarts" % "1.0.3")
