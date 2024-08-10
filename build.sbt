@@ -167,7 +167,7 @@ l:classpath         Enable cross-method optimizations across the entire classpat
 /*
  * Managed dependencies
  */
-val sparkVersion           = "3.5.1"
+val sparkVersion           = "3.5.2"
 val clusterDependencyScope = "provided"
 
 libraryDependencies ++= Seq(
