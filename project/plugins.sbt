@@ -47,7 +47,7 @@ addSbtPlugin("com.timushev.sbt" % "sbt-updates" % "0.6.4")
 addSbtPlugin("com.eed3si9n" % "sbt-buildinfo" % "0.12.0")
 
 // Adds a `assembly` task to create a fat JAR with all of its dependencies
-addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "2.2.0")
+addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "2.3.0")
 
 // http://github.com/sbt/sbt-license-report
 addSbtPlugin("com.typesafe.sbt" % "sbt-license-report" % "1.2.0")
