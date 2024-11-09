@@ -44,7 +44,7 @@ addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "2.5.2")
 addSbtPlugin("com.timushev.sbt" % "sbt-updates" % "0.6.4")
 
 // https://github.com/sbt/sbt-buildinfo
-addSbtPlugin("com.eed3si9n" % "sbt-buildinfo" % "0.13.0")
+addSbtPlugin("com.eed3si9n" % "sbt-buildinfo" % "0.13.1")
 
 // Adds a `assembly` task to create a fat JAR with all of its dependencies
 addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "2.3.0")
