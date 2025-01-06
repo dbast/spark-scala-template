@@ -1,10 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
+    "config:recommended"
   ],
-  "regexManagers": [
+  "customManagers": [
     {
+      "customType": "regex",
       "description": "Upgrade sbt to latest release",
       "fileMatch": [
         "project/build.properties"
@@ -16,7 +17,9 @@
   ],
   "packageRules": [
     {
-      "packageNames": ["sbt/sbt"],
+      "matchPackageNames": [
+        "sbt/sbt"
+      ],
       "extractVersion": "^v(?<version>.*)$"
     }
   ]
